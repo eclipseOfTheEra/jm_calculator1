@@ -14,7 +14,7 @@ public class try_Ex_cach {
 
     }
     public try_Ex_cach(int a) throws Ez_Exeption {
-        if(a<1){
+        if(a<0){
             throw new Ez_Exeption("Ошбика!В римской системе счисления нет отрицательных чисел.");
         }
     }
